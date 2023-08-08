@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+header {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pirveli {
+  display: inline-block;
+  font-weight: 600px;
+  font-size: 16px;
+  color: rgb(40, 40, 40);
+}
+.meore {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 54px;
+  margin-top: 12px;
+}
+.damesame {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(95, 105, 128);
+  text-align: center;
+  margin-top: 22px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 52px;
+}
+.team {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(234, 236, 240);
+}
+.name {
+  font-size: 18px;
+  color: rgb(40, 40, 40);
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.job {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(62, 62, 89);
+  margin-top: 7px;
+  margin-left: 12px;
+}
+.descr {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(62, 62, 89);
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.links {
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.teamlinks {
+  margin-left: 16px;
+}
+footer {
+  background-color: rgba(83, 83, 83, 0.329);
+  margin-top: 56px;
+  padding-top: 108px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ftrblck1 {
+  display: inline-block;
+}
+.ftrblck1 p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(83, 83, 83);
+}
+.footerlinks {
+  margin-left: 8px;
+}
+.websitelinks {
+  display: inline-block;
+  color: rgb(83, 83, 83);
+}
+.websitelinks h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(30, 30, 30);
+  margin-bottom: 50px;
+}
+.websitelinks .link {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.services {
+  display: inline-block;
+}
+.services h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(30, 30, 30);
+  margin-bottom: 50px;
+}
+.services .serlink {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.languages {
+  display: flex;
+  flex-direction: column;
+}
+.languages .langh {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(30, 30, 30);
+  margin-bottom: 130px;
+}
+.languages .langbutton {
+  background-color: #054a68;
+  height: 45px;
+  width: 80px;
+}
+.languages .langbutton span {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 14px;
+}
